@@ -19,13 +19,3 @@ exports['horseshoe -h'] = function (t) {
   });
 };
 
-exports['foo?'] = function (t) {
-  cp.exec(bin + ' --no-colors -s "test" -x "hallo" lupomontero@gmail.com', function (err, stdout, stderr) {
-    console.log(err, stdout, stderr);
-    //t.ok(!err);
-    //t.ok(/Usage/.test(stdout));
-    //t.equal(stderr, '');
-    t.done();
-  });
-};
-
