@@ -1,0 +1,44 @@
+{
+  "name": "horseshoe-cli",
+  "version": "0.0.0",
+  "description": "Command line interface for horseshoe mailer.",
+  "keywords": [
+    "horseshoe",
+    "mail",
+    "handlebars",
+    "nodemailer"
+  ],
+  "author": "Lupo Montero <lupomontero@gmail.com> (http://lupomontero.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lupomontero/horseshoe-cli"
+  },
+  "bugs": {
+    "url": "http://github.com/lupomontero/horseshoe-cli/issues"
+  },
+  "bin": {
+    "horseshoe": "./index.js"
+  },
+  "directories": {
+    "test": "./test"
+  },
+  "dependencies": {
+    "nopt": "~2.2.0",
+    "colors": "~0.6.2",
+    "JSONStream": "~0.8.0",
+    "horseshoe": "0.0.5"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "scripts": {
+    "pretest": "grunt jshint",
+    "test": "grunt nodeunit --verbose"
+  },
+  "engines": {
+    "node": ">= 0.10.x"
+  }
+}
