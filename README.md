@@ -1,4 +1,4 @@
-# horseshoe command line interface
+# [horseshoe](https://github.com/lupomontero/horseshoe) command line interface
 
 [![NPM](https://nodei.co/npm/horseshoe-cli.png?compact=true)](https://nodei.co/npm/horseshoe-cli/)
 
