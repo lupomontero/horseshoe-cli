@@ -146,6 +146,7 @@ try {
     ''
   ].join('\n'));
   res.emit('error', err);
+  process.exit(1);
 }
 
 if (options.help) {
